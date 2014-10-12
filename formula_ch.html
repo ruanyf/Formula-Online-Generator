@@ -1,0 +1,326 @@
+<html>
+    <head>
+        <title>Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style>
+            body{background-color:c7edcc;}
+            .tex_menu_sub{
+                
+                background-color:#ffffee;
+                border:1px solid black;
+                
+            }
+        
+            </style>
+    </head>
+    
+    <body>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> <!-- google cdn-->
+        
+        <div id="tex_menu">
+            
+            <div id="tex_menu_alpha" style="position:relative;float:left;">
+                
+                <div id="tex_menu_alpha_text" style="display:inline;height:1em;margin:0 0.8em;">Greek Alphabet</div>
+                
+                <div id="tex_menu_alpha_sub" class="tex_menu_sub" style="position:absolute;display:none;top:1em;left:0px;width:10em;">
+                    <p>
+                    <span id="tex_menu_symbol_alpha_l" class="tex_menu_symbol_literal">α</span>
+                    <span id="tex_menu_symbol_beta_l" class="tex_menu_symbol_literal">β</span>
+                    <span id="tex_menu_symbol_gamma_l" class="tex_menu_symbol_literal">γ</span>
+                    <span id="tex_menu_symbol_delta_l" class="tex_menu_symbol_literal">δ</span>
+                    <span id="tex_menu_symbol_epsilon_l" class="tex_menu_symbol_literal">ε</span>
+                    <span id="tex_menu_symbol_zeta_l" class="tex_menu_symbol_literal">ζ</span>
+                    
+                    <span id="tex_menu_symbol_eta_l" class="tex_menu_symbol_literal">η</span>
+                    <span id="tex_menu_symbol_theta_l" class="tex_menu_symbol_literal">θ</span>
+                    <span id="tex_menu_symbol_iota_l" class="tex_menu_symbol_literal">ι</span>
+                    <span id="tex_menu_symbol_kappa_l" class="tex_menu_symbol_literal">κ</span>
+                    <span id="tex_menu_symbol_lambda_l" class="tex_menu_symbol_literal">λ</span>
+                    <span id="tex_menu_symbol_mu_l" class="tex_menu_symbol_literal">μ</span>
+                    
+                    <span id="tex_menu_symbol_nu_l" class="tex_menu_symbol_literal">ν</span>
+                    <span id="tex_menu_symbol_xi_l" class="tex_menu_symbol_literal">ξ</span>
+                    <span id="tex_menu_symbol_pi_l" class="tex_menu_symbol_literal">π</span>
+                    <span id="tex_menu_symbol_rho_l" class="tex_menu_symbol_literal">ρ</span>
+                    <span id="tex_menu_symbol_sigma_l" class="tex_menu_symbol_literal">σ</span>
+                    
+                    <span id="tex_menu_symbol_tau_l" class="tex_menu_symbol_literal">τ</span>
+                    <span id="tex_menu_symbol_upsilon_l" class="tex_menu_symbol_literal">υ</span>
+                    <span id="tex_menu_symbol_phi_l" class="tex_menu_symbol_literal">φ</span>
+                    <span id="tex_menu_symbol_chi_l" class="tex_menu_symbol_literal">χ</span>
+                    <span id="tex_menu_symbol_psi_l" class="tex_menu_symbol_literal">ψ</span>
+                    <span id="tex_menu_symbol_omega_l" class="tex_menu_symbol_literal">ω</span>
+                    
+                    <span id="tex_menu_symbol_Gamma_u" class="tex_menu_symbol_literal">Γ</span>
+                    <span id="tex_menu_symbol_Delta_u" class="tex_menu_symbol_literal">Δ</span>
+                    <span id="tex_menu_symbol_Theta_u" class="tex_menu_symbol_literal">Θ</span>
+                    <span id="tex_menu_symbol_Lambda_u" class="tex_menu_symbol_literal">Λ</span>
+                    <span id="tex_menu_symbol_Xi_u" class="tex_menu_symbol_literal">Ξ</span>
+                    <span id="tex_menu_symbol_Pi_u" class="tex_menu_symbol_literal">Π</span>
+                    
+                    <span id="tex_menu_symbol_Sigma_u" class="tex_menu_symbol_literal">Σ</span>
+                    <span id="tex_menu_symbol_Phi_u" class="tex_menu_symbol_literal">Φ</span>
+                    <span id="tex_menu_symbol_Psi_u" class="tex_menu_symbol_literal">Ψ</span>
+                    <span id="tex_menu_symbol_Omega_u" class="tex_menu_symbol_literal">Ω</span>
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            <div style="float:left;"> | </div>
+            
+            <div id="tex_menu_signal" style="position:relative;float:left;">
+                
+                <div id="tex_menu_signal_text" style="display:inline;height:1em;margin:0 0.8em;">Operator</div>
+                
+                <div id="tex_menu_signal_sub" class="tex_menu_sub" style="position:absolute;display:none;top:1em;left:0px;width:10em;">
+                    <p>
+                    <span id="tex_menu_symbol_int_l" class="tex_menu_symbol_literal">∫</span>
+                    <span id="tex_menu_symbol_sum_l" class="tex_menu_symbol_literal">∑</span>
+                    <span id="tex_menu_symbol_prod_l" class="tex_menu_symbol_literal">∏</span>
+                    <span id="tex_menu_symbol_oplus_l" class="tex_menu_symbol_literal">⊕</span>
+                    <span id="tex_menu_symbol_pm_l" class="tex_menu_symbol_literal">±</span>
+                    <span id="tex_menu_symbol_infty_l" class="tex_menu_symbol_literal">∞</span>
+                    <span id="tex_menu_symbol_approx_l" class="tex_menu_symbol_literal">≈</span>
+                    <span id="tex_menu_symbol_circ_l" class="tex_menu_symbol_literal">°</span>
+                    <span id="tex_menu_symbol_prop_l" class="tex_menu_symbol_literal">∝</span>
+                    <span id="tex_menu_symbol_equiv_l" class="tex_menu_symbol_literal">≡</span>
+                    <span id="tex_menu_symbol_ne_l" class="tex_menu_symbol_literal">≠</span>
+                    <span id="tex_menu_symbol_le_l" class="tex_menu_symbol_literal">≤</span>
+                    <span id="tex_menu_symbol_ge_l" class="tex_menu_symbol_literal">≥</span>
+                    <span id="tex_menu_symbol_times_l" class="tex_menu_symbol_literal">×</span>
+                    <span id="tex_menu_symbol_cdot_l" class="tex_menu_symbol_literal">·</span>
+                    <span id="tex_menu_symbol_div_l" class="tex_menu_symbol_literal">÷</span>
+                    <span id="tex_menu_symbol_part_l" class="tex_menu_symbol_literal">∂</span>
+                    <span id="tex_menu_symbol_nabla_l" class="tex_menu_symbol_literal">∇</span>
+                    <span id="tex_menu_symbol_therefore_l" class="tex_menu_symbol_literal">∴</span>
+                    <span id="tex_menu_symbol_emptyset_l" class="tex_menu_symbol_literal">Ø </span>
+                    <span id="tex_menu_symbol_in_l" class="tex_menu_symbol_literal">∈ </span>
+                    <span id="tex_menu_symbol_ni_l" class="tex_menu_symbol_literal">∋ </span>
+                    <span id="tex_menu_symbol_notin_l" class="tex_menu_symbol_literal">∉ </span>
+                    <span id="tex_menu_symbol_cap_l" class="tex_menu_symbol_literal">∩ </span>
+                    <span id="tex_menu_symbol_cup_l" class="tex_menu_symbol_literal">∪</span>
+                    <span id="tex_menu_symbol_subset_l" class="tex_menu_symbol_literal">⊂ </span>
+                    <span id="tex_menu_symbol_supset_l" class="tex_menu_symbol_literal">⊃ </span>
+                    <span id="tex_menu_symbol_subseteq_l" class="tex_menu_symbol_literal">⊆ </span>
+                    <span id="tex_menu_symbol_supseteq_l" class="tex_menu_symbol_literal">⊇</span>
+                    <span id="tex_menu_symbol_wedge_l" class="tex_menu_symbol_literal">∧ </span>
+                    <span id="tex_menu_symbol_vee_l" class="tex_menu_symbol_literal">∨ </span>
+                    <span id="tex_menu_symbol_exist_l" class="tex_menu_symbol_literal">∃ </span>
+                    <span id="tex_menu_symbol_forall_l" class="tex_menu_symbol_literal">∀</span>
+                    <span id="tex_menu_symbol_Rightarrow_u" class="tex_menu_symbol_literal">⇒ </span>
+                    <span id="tex_menu_symbol_Leftarrow_u" class="tex_menu_symbol_literal">⇐ </span>
+                    <span id="tex_menu_symbol_Leftrightarrow_u" class="tex_menu_symbol_literal">⇔ </span>
+                    <span id="tex_menu_symbol_rightarrow_l" class="tex_menu_symbol_literal">→ </span>
+                    <span id="tex_menu_symbol_leftarrow_l" class="tex_menu_symbol_literal">← </span>
+                    <span id="tex_menu_symbol_leftrightarrow_l" class="tex_menu_symbol_literal">↔ </span>
+                    <span id="tex_menu_symbol_uparrow_l" class="tex_menu_symbol_literal">↑</span>
+                    <span id="tex_menu_symbol_downarrow_l" class="tex_menu_symbol_literal">↓</span>
+                    <span id="tex_menu_symbol_updownarrow_l" class="tex_menu_symbol_literal">↕</span>
+                    <span id="tex_menu_symbol_Uparrow_u" class="tex_menu_symbol_literal">⇑</span>
+                    <span id="tex_menu_symbol_Downarrow_u" class="tex_menu_symbol_literal">⇓</span>
+                    <span id="tex_menu_symbol_Updownarrow_u" class="tex_menu_symbol_literal">⇕</span>
+                    <span id="tex_menu_symbol_nwarrow_l" class="tex_menu_symbol_literal">↖</span>
+                    <span id="tex_menu_symbol_nearrow_l" class="tex_menu_symbol_literal">↗</span>
+                    <span id="tex_menu_symbol_searrow_l" class="tex_menu_symbol_literal">↘</span>
+                    <span id="tex_menu_symbol_swarrow_l" class="tex_menu_symbol_literal">↙</span>
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div style="float:left;"> | </div>
+            
+            <div id="tex_menu_struc" style="position:relative;float:left;">
+                
+                <div id="tex_menu_struc_text" style="display:inline;height:1em;margin:0 0.8em;">Structure</div>
+                <div id="tex_menu_struc_sub" class="tex_menu_sub" style="position:absolute;display:none;top:1em;left:0px;width:10em;">
+                    <p>
+                    <span id="tex_menu_symbol_frac_s" class="tex_menu_symbol_literal">Fraction</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_sqrt_s" class="tex_menu_symbol_literal">Root</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_superscript_s" class="tex_menu_symbol_literal">Superscript</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_subscript_s" class="tex_menu_symbol_literal">Subscript</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_dot_s" class="tex_menu_symbol_literal">Dot</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_hat_s" class="tex_menu_symbol_literal">Hat</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_bar_s" class="tex_menu_symbol_literal">Bar</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_vec_s" class="tex_menu_symbol_literal">Vector</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_sum_s" class="tex_menu_symbol_literal">Sum</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_prod_s" class="tex_menu_symbol_literal">Product</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_lim_s" class="tex_menu_symbol_literal">Limit</span>
+                    </p>
+                    <p>
+                    <span id="tex_menu_symbol_int_s" class="tex_menu_symbol_literal">Integral</span>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div style="clear:both;">
+            <textarea id="tex_textarea" style="width:30em;height:10em;"></textarea>
+        </div>
+        <p>Image Size：<input type="text" style="width:100px;" id="tex_input_size" value="Auto"/>（“Height” or “Wide x Hight”）</p>
+        <p>Text Color：<input type="text" style="width:100px;" id="tex_input_color" value="Auto"/>（RRGGBB format, [e.g.: red = FF0000]）</p>
+        <p>Background Color：<input type="text" style="width:100px;" id="tex_input_bgcolor" value="Auto"/> <input type="checkbox" name="tex_input_trans" id="tex_input_trans" value="trans">Transparent</p>
+            <p><button id="tex_form_button">Preview</button></p>
+            
+            <form id="tex_form">
+                <div id="tex_result">
+                    
+                    <p>Formula Preview：<span id="tex_result_img">Loading……</span></p>
+                    <p>Script：<input type="text" style="width:350px;" id="tex_result_code" /></p>
+                </div>
+            </form>
+            
+            
+            
+            <script>
+                
+                $(document).ready(function(){
+                                  
+                                  $('#tex_result').css('display','none');
+                                  
+                                  $('#tex_textarea').val('E=mc^2').select();
+                                  
+                                  $('#tex_menu_alpha_text').mouseenter(function(){
+                                                                       $('.tex_menu_sub').css('display','none');
+                                                                       $('#tex_menu_alpha_sub').fadeIn();
+                                                                       });
+                                  
+                                  $('#tex_menu_signal_text').mouseenter(function(){
+                                                                        $('.tex_menu_sub').css('display','none');
+                                                                        $('#tex_menu_signal_sub').fadeIn();
+                                                                        });
+                                  
+                                  $('#tex_menu_struc_text').mouseenter(function(){
+                                                                       $('.tex_menu_sub').css('display','none');
+                                                                       $('#tex_menu_struc_sub').fadeIn();
+                                                                       });
+                                  
+                                  $('#tex_menu').mouseleave(function(){
+                                                            $('.tex_menu_sub').css('display','none');
+                                                            });
+                                  
+                                  $('#tex_menu .tex_menu_symbol_literal').click(function(e){
+                                                                                var id_attr = $(this).attr("id");
+                                                                                var id_attr_arr = id_attr.split('_');
+                                                                                switch (id_attr_arr[id_attr_arr.length-1]){
+                                                                                case 'l':
+                                                                                id_attr ="\\"+ id_attr_arr[id_attr_arr.length-2]+' ';
+                                                                                break;
+                                                                                case 'u':
+                                                                                id_attr ="\\"+ id_attr_arr[id_attr_arr.length-2]+' ';
+                                                                                break;
+                                                                                case 's':
+                                                                                
+                                                                                switch (id_attr_arr[id_attr_arr.length-2]){
+                                                                                case 'superscript':
+                                                                                id_attr ="^{x}";
+                                                                                break;
+                                                                                case 'subscript':
+                                                                                id_attr ="_{x}";
+                                                                                break;
+                                                                                case 'dot':
+                                                                                id_attr ="\\dot{x}";
+                                                                                break;
+                                                                                case 'hat':
+                                                                                id_attr ="\\hat{x}";
+                                                                                break;
+                                                                                case 'bar':
+                                                                                id_attr ="\\bar{x}";
+                                                                                break;
+                                                                                case 'vec':
+                                                                                id_attr ="\\vec{x}";
+                                                                                break;
+                                                                                case 'sum':
+                                                                                id_attr ="\\sum_{x=1}^N x";
+                                                                                break;
+                                                                                case 'prod':
+                                                                                id_attr ="\\prod_{i=1}^N x_i";
+                                                                                break;
+                                                                                case 'lim':
+                                                                                id_attr ="\\lim_{n\\to\\infty}x_n";
+                                                                                break;
+                                                                                case 'int':
+                                                                                id_attr ="\\int_{1}^{3}x\\,dx";
+                                                                                break;
+                                                                                case 'frac':
+                                                                                id_attr ="\\frac{1}{2}";
+                                                                                break;
+                                                                                case 'sqrt':
+                                                                                id_attr ="\\sqrt{x}";
+                                                                                break;
+                                                                                }
+                                                                                
+                                                                                break;
+                                                                                }
+                                                                                
+                                                                                var obj =$('#tex_textarea')[0];
+                                                                                
+                                                                                var selection = document.selection;
+                                                                                
+                                                                                obj.focus();
+                                                                                
+                                                                                if (typeof obj.selectionStart != "undefined") {
+                                                                                var s = obj.selectionStart;
+                                                                                obj.value = obj.value.substr(0,s) + id_attr + obj.value.substr(obj.selectionEnd);
+                                                                                obj.selectionEnd = s + id_attr.length;
+                                                                                } else if (document.selection && document.selection.createRange) {
+                                                                                var sel = document.selection.createRange();
+                                                                                sel.text = id_attr;
+                                                                                } else {
+                                                                                obj.value += id_attr;
+                                                                                }
+                                                                                
+                                                                                // $('#tex_textarea').val(id_attr);
+                                                                                $('.tex_menu_sub').css('display','none');
+                                                                                });
+                                  
+                                  $('#tex_form_button').click(function(){
+                                                              $('#tex_result').css('display','block');
+                                                              var gChart_url='http://chart.googleapis.com/chart?cht=tx&chl=';
+                                                              gChart_url +=encodeURIComponent($('#tex_textarea').val());
+                                                              if($('#tex_input_size').val()!=='自动'){gChart_url = gChart_url+'&chs='+encodeURIComponent($('#tex_input_size').val());}
+                                                              
+                                                              if($('#tex_input_bgcolor').val()!=='自动' && $('#tex_input_trans:checked').length===0){gChart_url = gChart_url+'&chf=bg,s,'+encodeURIComponent($('#tex_input_bgcolor').val());}
+                                                              
+                                                              if($('#tex_input_color').val()!=='自动'){gChart_url = gChart_url+'&chco='+encodeURIComponent($('#tex_input_color').val());}
+                                                              
+                                                              if($('#tex_input_trans:checked').length===1){gChart_url = gChart_url+'&chf=a,s,00000080';}
+                                                              
+                                                              gChart_url = '<img src="'+gChart_url+'" />';
+                                                              $('#tex_result_img').html(gChart_url);
+                                                              $('#tex_result_code').val(gChart_url);
+                                                              });	
+                                  
+                                  });	
+                                  
+                </script>
+            
+            
+    </body>
+    
+<html>
